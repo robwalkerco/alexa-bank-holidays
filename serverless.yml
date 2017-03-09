@@ -1,0 +1,15 @@
+service: alexa-bank-holidays
+
+frameworkVersion: ">=1.4.0 <2.0.0"
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+  region: eu-west-1
+  profile: serverless-admin
+
+functions:
+  bankHolidays:
+    handler: handler.GetBankHolidays
+    events:
+      - alexaSkill

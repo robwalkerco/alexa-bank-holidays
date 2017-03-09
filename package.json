@@ -1,0 +1,13 @@
+{
+  "name": "alexa-bank-holidays",
+  "version": "0.0.1",
+  "description": "Alexa skill to get the next bank holidays.",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "request": "^2.80.0",
+    "request-promise": "^4.1.1"
+  }
+}
